@@ -1,0 +1,11 @@
+{
+  "name": "nodejs-assignment2",
+  "version": "1.0.0",
+  "description": "NodeJS Assignment 2 - Simple Web Servers and Routing",
+  "main": "exercise1.js",
+  "scripts": {
+    "start": "node exercise1.js"
+  },
+  "author": "Chaitanya Sai",
+  "license": "ISC"
+}
