@@ -1,0 +1,27 @@
+/* styles.css */
+:root { font-family: Arial, sans-serif; }
+body { margin: 0; background: #f1f1f1; color: #222; }
+.container { max-width: 760px; margin: 40px auto; background: #fff; padding: 20px; border-radius: 6px; box-shadow: 0 4px 12px rgba(0,0,0,0.08);}
+h1 { margin: 0 0 16px; }
+
+.table { display: table; width: 100%; border-collapse: collapse; }
+.row { display: table-row; cursor: pointer; }
+.row.header { font-weight: bold; background: #111; color: white; }
+.cell { display: table-cell; padding: 10px 12px; border-bottom: 1px solid #e3e3e3; vertical-align: middle; }
+.row:hover { background: #fafafa; }
+
+.overlay { position: fixed; inset: 0; display: flex; align-items: center; justify-content: center; background: rgba(0,0,0,0.45); }
+.hidden { display: none; }
+.modal { background: white; width: 380px; border-radius: 8px; padding: 14px; position: relative; box-shadow: 0 8px 30px rgba(0,0,0,0.25); }
+.close { position: absolute; right: 8px; top: 8px; background: transparent; border: none; font-size: 20px; cursor: pointer; }
+
+.loader { padding: 20px; text-align: center; font-weight: 600; }
+.details { padding: 10px 6px; }
+.detail-row { margin: 10px 0; display:flex; justify-content:space-between; }
+.detail-label { color: #555; }
+.detail-value { font-weight: 600; }
+
+@media (max-width: 420px) {
+  .modal { width: 92%; }
+  .cell { padding: 8px; }
+}
