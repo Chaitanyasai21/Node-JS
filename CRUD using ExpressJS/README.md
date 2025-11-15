@@ -1,4 +1,4 @@
-Employee Management App
+**Employee Management App**
 
 A simple Node.js + Express application that displays a list of employees on the landing page and shows full employee details (personal info, salary, and department) in a popup using Promises and async/await.
 
